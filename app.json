@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "OneFaith",
+    "slug": "onefaith-6orr4i1sumntieaqu7dcl",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pp659540.onefaith6orr4i1sumntieaqu7dcl"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pp659540.onefaith6orr4i1sumntieaqu7dcl"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "61dd24a9-a77d-4752-9cae-1336901c7a06"
+      }
+    },
+    "owner": "pp659540",
+    "updates": {
+      "url": "https://u.expo.dev/61dd24a9-a77d-4752-9cae-1336901c7a06"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
